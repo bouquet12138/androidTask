@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--主界面-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/titleStyle"
+                android:text="主界面" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="主界面"
+                android:textColor="#222"
+                android:textSize="50dp" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/listImage"
+            android:layout_width="@dimen/appBarHeight"
+            android:layout_height="@dimen/appBarHeight"
+            android:layout_marginLeft="5dp"
+            android:padding="8dp"
+            android:src="@drawable/list" />
+
+    </FrameLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

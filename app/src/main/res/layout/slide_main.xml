@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical">
+
+
+    <!--滚动View-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--账号管理-->
+            <TextView
+                android:id="@+id/environmentalIndicators"
+                style="@style/SlideTextStyle"
+                android:text="环境指标" />
+            <TextView
+                android:id="@+id/historyRecord"
+                style="@style/SlideTextStyle"
+                android:text="数据历史记录" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
